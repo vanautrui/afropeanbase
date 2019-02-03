@@ -1,7 +1,16 @@
 body {
   background-color: rgb(0,86,219);
-  color: yellow;
+
+
+  background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-1/p200x200/29541006_178200129643315_7556358330537998963_n.png?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=0386c0fc92dee2d1b0c2dbba3d89d676&oe=5CE8CADD");
+  background-repeat: repeat;
 }
-p{
-  color: yellow;
+
+.staricon{
+  height: 2em;
+  width: auto;
+}
+
+.mycontainer{
+  background-color: white;
 }
