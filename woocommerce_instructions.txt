@@ -1,0 +1,22 @@
+These instructions are for creating tickets in the woocommerce shop the correct way.
+
+step 1:
+  go to woocommerce and add a SIMPLE PRODUCT
+
+step 2:
+  set properties:  {virtual:true,downloadable:false}
+
+--------------------
+now orders will be in 'wp_posts' database with post_type='shop_order'
+
+post_status='wc_processing'
+
+
+
+now the service can pick up that order and set status to 'wc-completed'
+
+for processing the order it
+uses the ID column in wp_posts
+to get the info in wp_postmeta by getting the rows where post_id=ID
+
+meta_key can be _billing_first_name, _billing_last_name, _billing_email
