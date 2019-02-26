@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="afropeanbase-logo-text.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="18.999758"
+     inkscape:cy="9.514739"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     borderlayer="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1602"
+     inkscape:window-height="1123"
+     inkscape:window-x="3891"
+     inkscape:window-y="925"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-284.3)">
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.82280993px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ebb800;fill-opacity:1;stroke:none;stroke-width:0.07057038"
+       x="0.41275549"
+       y="291.70969"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="0.41275549"
+         y="291.70969"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.82280993px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ebb800;fill-opacity:1;stroke-width:0.07057038">Afropean</tspan></text>
+    <rect
+       style="fill:#ebb800;fill-opacity:1;stroke:none;stroke-width:0.69584656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect860"
+       width="8.9989634"
+       height="3.4995968"
+       x="-23.845615"
+       y="291.789"
+       transform="rotate(-5.0097518)" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.82280993px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0056db;fill-opacity:1;stroke:none;stroke-width:0.07057038"
+       x="3.097676"
+       y="295.13419"
+       id="text817-8"><tspan
+         sodipodi:role="line"
+         id="tspan815-3"
+         x="3.097676"
+         y="295.13419"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.82280993px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0056db;fill-opacity:1;stroke-width:0.07057038">Base</tspan></text>
+  </g>
+</svg>
