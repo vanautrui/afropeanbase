@@ -1,59 +1,65 @@
 <nav class="bg-afropean">
 
 
-    <!--<div class="row justify-content-center align-items-center">-->
-    <div class="mynav">
 
-      <div class="">
-        <a class="" href="index.php">
-          <!--<img src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-1/p200x200/29541006_178200129643315_7556358330537998963_n.png?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=0386c0fc92dee2d1b0c2dbba3d89d676&oe=5CE8CADD"
-               style="width: 8em; height: auto;"/>
-               -->
-          <img src="assets/afropeanbase-logo.svg"
-               style="width:8em; height:auto;"
-          >
-        </a>
-      </div>
+  <div id="my-navigation" class="row align-items-center">
 
-      <div class="">
-        <a href="https://tickets.afropeanbase.com/product-category/tickets/" class="">
-          <button class="btn btn-outline-primary">
-          Ticketshop
-          </button>
-        </a>
-      </div>
+    <div class="m-3"></div>
 
-      <div class="">
-        <a href="index.php" class="">
-          <button class="btn btn-outline-warning">
-            <span>Upcoming Events</span>
-          </button>
-        </a>
-      </div>
-
-      <div class="">
-        <a href="artists.php" class="">
-          <button class="btn btn-outline-success">
-            Featured Artists
-          </button>
-        </a>
-      </div>
-
-      <div class="row">
-        <a href="https://www.facebook.com/AfropeanBase-178199849643343/" class="">
-          <img
-            src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.edgehill.ac.uk%2Fthelabel%2Ffiles%2F2016%2F04%2Ffacebook-flat-vector-logo.png&f=1"
-            style="width:2em; height:auto;"
-          />
-        </a>
-        <a href="https://www.instagram.com/afropeanbase/" class="">
-          <img
-            src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe7%2FInstagram_logo_2016.svg%2F600px-Instagram_logo_2016.svg.png&f=1"
-            style="width:2em; height:auto;"
-          />
-        </a>
-      </div>
-
+    <div class="">
+      <a class="" href="index.php">
+        <img src="assets/afropeanbase-logo.svg"
+             style="width:4em; height:auto;"
+         alt="logo">
+      </a>
     </div>
+
+    <div class="m-3">
+      <a href="https://tickets.afropeanbase.com/product-category/tickets/" class="">
+        Ticketshop
+      </a>
+    </div>
+
+    <div class="m-3">
+      <a href="index.php" class="">
+          <span>Upcoming Events</span>
+      </a>
+    </div>
+
+    <div class="m-3">
+      <a href="artists.php" class="">
+          Featured Artists
+      </a>
+    </div>
+
+    <div class="">
+      <a href="https://www.facebook.com/AfropeanBase-178199849643343/" class="m-3">
+        <img
+          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.edgehill.ac.uk%2Fthelabel%2Ffiles%2F2016%2F04%2Ffacebook-flat-vector-logo.png&f=1"
+          style="width:2em; height:auto;"
+         alt="facebook"/>
+      </a>
+      <a href="https://www.instagram.com/afropeanbase/" class="m-3">
+        <img
+          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe7%2FInstagram_logo_2016.svg%2F600px-Instagram_logo_2016.svg.png&f=1"
+          style="width:2em; height:auto;"
+         alt="instagram"/>
+      </a>
+    </div>
+
+  </div>
+
+  <script>
+    function getOrientation() {
+      if (screen.width > screen.height) {
+        return 'landscape';
+      }
+      return 'portrait';
+    }
+    if(screen.width < 500 && getOrientation()==='portrait'){
+      document.getElementById("my-navigation").classList.replace("row","col");
+    }
+
+  </script>
 
 </nav>

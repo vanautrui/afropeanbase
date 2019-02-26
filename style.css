@@ -1,14 +1,28 @@
 body {
-  //afropeanbase-blue
-  background-color: rgb(0,86,219);
 
-  //afropeanbase-blue #0056DB
-  //afropeanbase-yellow #EBB800
+  background-color: #003A94;
 
-  font-family: Arial, KacstArt;
+  /*
+  afropeanbase-blue #0056DB
+  afropeanbase-dark-blue #003A94
+  afropeanbase-yellow #EBB800
+  */
 
+  font-family: Arial, KacstArt, sans-serif;
+  /*
   background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-1/p200x200/29541006_178200129643315_7556358330537998963_n.png?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=0386c0fc92dee2d1b0c2dbba3d89d676&oe=5CE8CADD");
   background-repeat: repeat;
+  */
+  color:black;
+}
+
+a{
+  font-size: x-large;
+  color: #EBB800;
+}
+
+a:hover{
+  color: #EBB800;
 }
 
 .staricon{
@@ -22,11 +36,11 @@ body {
 
 .artist_picture{
 
-  min-height: 300px;
-  min-width: 300px;
+  min-height: 100px;
+  min-width: 100px;
 
-  height: 50em;
-  width: 50em;
+  height: 18vmax;
+  width: 18vmax;
 
   max-height: 20vmax;
   max-width: 20vmax;
