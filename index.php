@@ -15,6 +15,10 @@
                 style="max-width:100%;"
         />
     </div>
+    <hr>
+    <h1 class="text-center">
+        Past Events:
+    </h1>
 </div>
 </body>
 </html>
