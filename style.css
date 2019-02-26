@@ -1,14 +1,19 @@
 body {
   background-color: rgb(0,86,219);
 
+  font-family: Arial, KacstArt;
 
-  background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-1/p200x200/29541006_178200129643315_7556358330537998963_n.png?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=0386c0fc92dee2d1b0c2dbba3d89d676&oe=5CE8CADD");
-  background-repeat: repeat;
+  #background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-1/p200x200/29541006_178200129643315_7556358330537998963_n.png?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=0386c0fc92dee2d1b0c2dbba3d89d676&oe=5CE8CADD");
+  #background-repeat: repeat;
 }
 
 .staricon{
   height: 2em;
   width: auto;
+}
+
+.bg-afropean{
+  background-color: rgb(0,86,219);
 }
 
 .artist_picture{
@@ -26,3 +31,4 @@ body {
 .mycontainer{
   background-color: white;
 }
+
