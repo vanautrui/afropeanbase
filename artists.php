@@ -5,9 +5,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="loadheaderfooter.js"></script>
-  <div id="header"></div>
-
+    <?php
+        include("header.html");
+    ?>
   <div class="container">
 
     <div class="row" id="artist-showcase">
@@ -59,7 +59,7 @@
       ];
 
       //$("artist-showcase").append(makeartisthtml(artists[0]));
-      for(var i=0;i<artists.length;i++){
+      for(var i=0; i<artists.length; i++){
         target.innerHTML+=makeartisthtml(artists[i]);
       }
     </script>

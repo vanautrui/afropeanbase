@@ -5,8 +5,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="loadheaderfooter.js"></script>
-  <div id="header"></div>
+    <?php
+        include("header.html");
+    ?>
 
   <div class="container mycontainer">
     hello
