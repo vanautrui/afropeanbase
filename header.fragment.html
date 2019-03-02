@@ -2,56 +2,67 @@
 
 
 
-  <div id="my-navigation" class="row align-items-center">
+  <div id="my-navigation" class="row mynav">
 
-    <div class="m-3"></div>
+        <div class="m-3"></div>
 
-    <div class="">
-      <a class="" href="index.php">
-        <img src="assets/afropeanbase-logo.svg"
-             style="width:4em; height:auto;"
-         alt="logo">
-      </a>
-    </div>
+        <div class="row">
+            <div class="">
+              <a class="" href="index.php">
+                <img src="assets/afropeanbase-logo.svg"
+                     style="width:4em; height:auto;"
+                 alt="logo">
+              </a>
+            </div>
 
-    <div class="m-3">
-      <a href="https://tickets.afropeanbase.com/product-category/tickets/" class="">
-        Ticketshop
-      </a>
-    </div>
+        <div>
+            <button id="mobile-nav-toggle" class="btn btn-outline-info">Menu</button>
+        </div>
 
-    <div class="m-3">
-      <a href="index.php" class="">
-          <span>Upcoming Events</span>
-      </a>
-    </div>
+        </div>
 
-    <div class="m-3">
-      <a href="artists.php" class="">
-          Featured Artists
-      </a>
-    </div>
+        <div class="row mynav" id="mobile-toggle-nav">
 
-    <div class="m-3">
-      <a href="media.php" class="">
-        Media
-      </a>
-    </div>
+            <div class="m-3">
+              <a href="https://tickets.afropeanbase.com/product-category/tickets/" class="">
+                Ticketshop
+              </a>
+            </div>
 
-    <div class="">
-      <a href="https://www.facebook.com/AfropeanBase-178199849643343/" class="m-3">
-        <img
-          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.edgehill.ac.uk%2Fthelabel%2Ffiles%2F2016%2F04%2Ffacebook-flat-vector-logo.png&f=1"
-          style="width:2em; height:auto;"
-         alt="facebook"/>
-      </a>
-      <a href="https://www.instagram.com/afropeanbase/" class="m-3">
-        <img
-          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe7%2FInstagram_logo_2016.svg%2F600px-Instagram_logo_2016.svg.png&f=1"
-          style="width:2em; height:auto;"
-         alt="instagram"/>
-      </a>
-    </div>
+            <div class="m-3">
+              <a href="index.php" class="">
+                  <span>Upcoming Events</span>
+              </a>
+            </div>
+
+            <div class="m-3">
+              <a href="artists.php" class="">
+                  Featured Artists
+              </a>
+            </div>
+
+            <div class="m-3">
+              <a href="media.php" class="">
+                Media
+              </a>
+            </div>
+
+            <div class="">
+              <a href="https://www.facebook.com/AfropeanBase-178199849643343/" class="m-3">
+                <img
+                  src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.edgehill.ac.uk%2Fthelabel%2Ffiles%2F2016%2F04%2Ffacebook-flat-vector-logo.png&f=1"
+                  style="width:2em; height:auto;"
+                 alt="facebook"/>
+              </a>
+              <a href="https://www.instagram.com/afropeanbase/" class="m-3">
+                <img
+                  src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe7%2FInstagram_logo_2016.svg%2F600px-Instagram_logo_2016.svg.png&f=1"
+                  style="width:2em; height:auto;"
+                 alt="instagram"/>
+              </a>
+            </div>
+
+        </div>
 
   </div>
 
@@ -62,9 +73,37 @@
       }
       return 'portrait';
     }
-    if(screen.width < 500 && getOrientation()==='portrait'){
-      document.getElementById("my-navigation").classList.replace("row","col");
+    function isMobile(){
+      return screen.width < 500 && getOrientation()==='portrait';
     }
+
+    var nav_hidden=false;
+
+    function toggleNav() {
+      if(nav_hidden){
+        nav_hidden=false;
+        document.getElementById('mobile-toggle-nav').style.display='block';
+      }else {
+        nav_hidden=true;
+        document.getElementById('mobile-toggle-nav').style.display='none';
+      }
+    }
+
+    if(isMobile()){
+      document.getElementById("my-navigation").classList.replace("row","col");
+
+      //try to collapse the navigation
+      toggleNav();
+
+      //add event listener to expand it on click to the Menu
+      document.getElementById('mobile-nav-toggle').addEventListener('click',function(){
+        toggleNav();
+      },false);
+    }else{
+      //remove the Nav Menu Button
+      document.getElementById("mobile-nav-toggle").style.display='none';
+    }
+
 
   </script>
 
