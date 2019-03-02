@@ -6,9 +6,9 @@
     <?php
         include("header.fragment.html");
     ?>
-  <div class="container">
+  <div class="container-fluid">
 
-    <div class="row" id="artist-showcase">
+    <div class="row justify-content-center" id="artist-showcase">
         <?php
             $artist_images=array(
 

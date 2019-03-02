@@ -1,6 +1,6 @@
 body {
 
-  background-color: #003A94;
+  //background-color: #003A94;
 
   /*
   afropeanbase-blue #0056DB
@@ -36,8 +36,8 @@ a:hover{
 
 .artist_picture{
 
-  min-height: 100px;
-  min-width: 100px;
+  min-height: 300px;
+  min-width: 300px;
 
   height: 18vmax;
   width: 18vmax;
