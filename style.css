@@ -39,13 +39,13 @@ a:hover{
   min-height: 300px;
   min-width: 300px;
 
-  height: 18vmax;
-  width: 18vmax;
+  height: 15vmax;
+  width: 15vmax;
 
   object-fit: cover;
 
-  max-height: 20vmax;
-  max-width: 20vmax;
+  //max-height: 20vmax;
+  //max-width: 20vmax;
 }
 
 .mycontainer{

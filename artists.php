@@ -18,18 +18,22 @@
 
                 "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/50851677_365804594216200_640813750537945088_n.jpg?_nc_cat=109&_nc_ht=scontent-frt3-1.xx&oh=9305ce4d195f855c0e2ebe9bb7ffe304&oe=5CF84DB9",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/45001814_317620695701257_7302716490908696576_n.jpg?_nc_cat=104&_nc_ht=scontent-amt2-1.xx&oh=b4b800c24efa6e25a8f71e30433c7da4&oe=5D188D4A",
-
-
-
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/44074996_309111639885496_7354518744300781568_n.jpg?_nc_cat=106&_nc_ht=scontent-amt2-1.xx&oh=b198adfd9c32e3405b5bb093a268b860&oe=5D266AE4",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/43184436_305228086940518_3669770098089918464_n.jpg?_nc_cat=106&_nc_ht=scontent-amt2-1.xx&oh=23e5db4c1cb1b3cd284ec1f17752d190&oe=5CE4E677",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/42681062_302537060542954_4239025823710969856_n.jpg?_nc_cat=109&_nc_ht=scontent-amt2-1.xx&oh=1cc4bea3a3eb76537ab49f9325530c46&oe=5D1F90CE",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/42361342_299958194134174_8028274576171466752_n.jpg?_nc_cat=105&_nc_ht=scontent-amt2-1.xx&oh=23cd34d3f4068a69cd9b247dc1b4f9c9&oe=5D214E0B",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/41964639_297740544355939_3245642339602923520_n.jpg?_nc_cat=103&_nc_ht=scontent-amt2-1.xx&oh=9ea04604bc3c85aecff5a991e5ea3a36&oe=5D1999FD",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/41467924_293973444732649_8320292671096619008_n.jpg?_nc_cat=103&_nc_ht=scontent-amt2-1.xx&oh=7a4f52384dd256a96020ad1cea06ba59&oe=5D186238",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/39976778_284858972310763_3270684863681789952_n.jpg?_nc_cat=105&_nc_ht=scontent-amt2-1.xx&oh=8a0c6722b009a27d607fe7406bf16acc&oe=5D1E6658",
+                /*
+                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/42361342_299958194134174_8028274576171466752_n.jpg?_nc_cat=105&_nc_ht=scontent-amt2-1.xx&oh=23cd34d3f4068a69cd9b247dc1b4f9c9&oe=5D214E0B",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/39397733_277667043029956_176441066155671552_n.jpg?_nc_cat=102&_nc_ht=scontent-amt2-1.xx&oh=3a370690daddc42caf21f71fd80aa87b&oe=5CDD7E7B",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/33248932_205358353594159_8144813024780222464_n.jpg?_nc_cat=103&_nc_ht=scontent-amt2-1.xx&oh=c3bae6d4b4206e2a2a6eaf15941daaac&oe=5CDC0597"
+
+                */
+
+
+
+
+
+
+
+
             );
 
             $artist_cards=array(
@@ -82,6 +86,36 @@
                         "https://scontent-frx5-1.cdninstagram.com/vp/966e3ef3e8ba4f9cfe945fb5f0805780/5D16FAE4/t51.2885-15/e35/50055471_618135025290121_3935962419101581898_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
                         "Yxng Bane, Musician (UK)",
                         "https://www.instagram.com/yxngbane/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/6d8dd37914a1afaebaf95b5d5e103060/5D23BCCA/t51.2885-15/e35/40532420_1141520382664276_6587911135444336640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Ms. Aba, Mc/Presenter (Holland)",
+                        "https://www.instagram.com/ms.aba/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/c516ce2dbdca084a9be049596bc61155/5D1756AC/t51.2885-15/e35/39638154_259009211607919_8384076306991546368_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Kojo Funds, Musician (UK)",
+                        "https://www.instagram.com/kojofunds/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/0705d94442f84384268d1f41b85f0a2a/5D103138/t51.2885-15/e35/41725149_1779798485462158_4390871962259442420_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Deon Boakye, Musician (Italy)",
+                        "https://www.instagram.com/deonboakye/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/51be5bd866494e7eb07be6dc2049dd37/5D167C74/t51.2885-15/e35/19931776_320420575094867_5151541597690658816_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Joceappia, Fitness Model (Germany)",
+                        "https://www.instagram.com/joceappia/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/d30231264244f3f27ffa3c2a238b8aff/5D065E81/t51.2885-15/e35/15876307_1322151114522054_2270065364702330880_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Dj Brooke Bailey (Belgium)",
+                        "https://www.instagram.com/dj_brookebailey/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/09eda60904a2b6d27210627a946a33ad/5D204302/t51.2885-15/e35/28153281_766531886877105_7939512424095285248_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Maybeline Akua, Model (Amsterdam)",
+                        "https://www.instagram.com/maybeline.akua/"
                 )
             );
 
