@@ -12,17 +12,15 @@
         <?php
             $artist_images=array(
 
-                "https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/52303441_376142526515740_5681651449482706944_n.jpg?_nc_cat=108&_nc_ht=scontent-frt3-2.xx&oh=3beb005b9d45d912516a7cd506baa399&oe=5D1A8CD2",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/51308511_371282657001727_8220953672427765760_n.jpg?_nc_cat=104&_nc_ht=scontent-amt2-1.xx&oh=5505908512a4bf22972a96bf19f9efc5&oe=5D26C585",
-                "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/50986168_368614330601893_674392925844537344_n.jpg?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=d235f19cc3effb02deee65732c254100&oe=5CF100A4",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/50853143_367582700705056_6163381398083207168_n.jpg?_nc_cat=107&_nc_ht=scontent-amt2-1.xx&oh=d0ece8888a7a891ac698c34726ebaab8&oe=5CEDBA97",
+
+
+
+
                 "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/50851677_365804594216200_640813750537945088_n.jpg?_nc_cat=109&_nc_ht=scontent-frt3-1.xx&oh=9305ce4d195f855c0e2ebe9bb7ffe304&oe=5CF84DB9",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/50271402_361134591349867_6921681019770765312_n.jpg?_nc_cat=108&_nc_ht=scontent-amt2-1.xx&oh=3759827f9fb9c2fe5bd438c477de10e1&oe=5D21D9A6",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/49937920_358739434922716_3048327813993070592_n.jpg?_nc_cat=110&_nc_ht=scontent-amt2-1.xx&oh=59ae3f8230aad3afa0be71adedd497e8&oe=5D1BA12B",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/49525731_357708728359120_5670956259361161216_n.jpg?_nc_cat=106&_nc_ht=scontent-amt2-1.xx&oh=663aaf6ae836e3fdaeb84686c533b83d&oe=5D2490D3",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/46112772_324484691681524_359162628628545536_n.jpg?_nc_cat=110&_nc_ht=scontent-amt2-1.xx&oh=63eed69edbeab786eaac1937b3cf780c&oe=5CDFA15A",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/45001814_317620695701257_7302716490908696576_n.jpg?_nc_cat=104&_nc_ht=scontent-amt2-1.xx&oh=b4b800c24efa6e25a8f71e30433c7da4&oe=5D188D4A",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/43626652_314716902658303_7708602866159583232_n.jpg?_nc_cat=103&_nc_ht=scontent-amt2-1.xx&oh=e22e940ee9cf27e1c959b298c7c30e77&oe=5D1A95B8",
+
+
+
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/44074996_309111639885496_7354518744300781568_n.jpg?_nc_cat=106&_nc_ht=scontent-amt2-1.xx&oh=b198adfd9c32e3405b5bb093a268b860&oe=5D266AE4",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/43184436_305228086940518_3669770098089918464_n.jpg?_nc_cat=106&_nc_ht=scontent-amt2-1.xx&oh=23e5db4c1cb1b3cd284ec1f17752d190&oe=5CE4E677",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/42681062_302537060542954_4239025823710969856_n.jpg?_nc_cat=109&_nc_ht=scontent-amt2-1.xx&oh=1cc4bea3a3eb76537ab49f9325530c46&oe=5D1F90CE",
@@ -33,6 +31,70 @@
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/39397733_277667043029956_176441066155671552_n.jpg?_nc_cat=102&_nc_ht=scontent-amt2-1.xx&oh=3a370690daddc42caf21f71fd80aa87b&oe=5CDD7E7B",
                 "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/33248932_205358353594159_8144813024780222464_n.jpg?_nc_cat=103&_nc_ht=scontent-amt2-1.xx&oh=c3bae6d4b4206e2a2a6eaf15941daaac&oe=5CDC0597"
             );
+
+            $artist_cards=array(
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/b893b81e326beadd74f7485259f13509/5D02EB0F/t51.2885-15/e35/43276462_281278195921601_3969613862627526195_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "George Alisigwe, Musician",
+                        "https://www.instagram.com/georgealisigwe/"
+                    ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/115dd31f26e5ecc05801c14240a39f37/5D1182D6/t51.2885-15/e35/49283519_130467431307660_4876612131884495674_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Ashlee Janelle, Influencer",
+                        "https://www.instagram.com/ashleejanelle_/?hl=de"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/d407807e8eea81e5b2f3067e836e971f/5D1FAC52/t51.2885-15/e35/49321467_114295019639008_4668579499900551510_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Sandra Lambeck, Influencer",
+                        "https://www.instagram.com/sandralambeck/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/e82745fe0aa39c48f6eb4795730d5867/5D01EF56/t51.2885-15/e35/50766671_1276212509185851_3515962590560094321_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Maleek Berry, Musician",
+                        "https://www.instagram.com/maleekberry/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/aebe80f49a8b53e94f150f9ed104e14b/5D28C95B/t51.2885-15/e35/47299700_221287898758281_8289701074786164150_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Dj Noreuk",
+                        "https://www.instagram.com/djnoreuk/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/fe1dbc0fe7d8c4b38a4006eeb8371425/5D09B023/t51.2885-15/e35/29088214_159905824699168_3096507584593526784_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Dj Opanka (Belgium)",
+                        "https://www.instagram.com/dj_opanka/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/896eda16881253fdcb56aff8d917a774/5D24B9F5/t51.2885-15/e35/35001230_420203385127038_8198348907361599488_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Dj Emsi flybokoe (Holland)",
+                        "https://www.instagram.com/emsiflybokoe/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/009ed243913cc9cef3adb2ddc3dae605/5D0AD2E3/t51.2885-15/e35/38685614_225299354801820_2013045360544448512_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Dj FiiFii (UK)",
+                        "https://www.instagram.com/fiifiidj/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/9d833c7e1563533d81f053a83ad0c435/5D14C798/t51.2885-15/e35/42893187_2180284608671680_5300677682202467498_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Mariseya, Musician (Holland)",
+                        "https://www.instagram.com/mrsmariseya/"
+                ),
+                array(
+                        "https://scontent-frx5-1.cdninstagram.com/vp/966e3ef3e8ba4f9cfe945fb5f0805780/5D16FAE4/t51.2885-15/e35/50055471_618135025290121_3935962419101581898_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "Yxng Bane, Musician (UK)",
+                        "https://www.instagram.com/yxngbane/"
+                )
+            );
+
+            for($i=0;$i<sizeof($artist_cards);$i++){
+
+                echo "<div>";
+                    echo "<a href='" . $artist_cards[$i][2] . "'>";
+                        echo "<img class='artist_picture m-3' src='" . $artist_cards[$i][0] . "'>";
+                    echo "</a>";
+                    echo "<p class='text-center'>" . $artist_cards[$i][1] . "</p>";
+                echo "</div>";
+
+            }
 
             for($i=0;$i<sizeof($artist_images);$i++){
                 echo "<img class='artist_picture m-3' src=\"" . $artist_images[$i] . "\">";

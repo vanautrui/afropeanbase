@@ -1,6 +1,6 @@
 body {
 
-  //background-color: #003A94;
+  background-color: #003A94;
 
   /*
   afropeanbase-blue #0056DB
@@ -16,7 +16,7 @@ body {
   color:black;
 }
 
-a{
+a, p{
   font-size: x-large;
   color: #EBB800;
 }
@@ -41,6 +41,8 @@ a:hover{
 
   height: 18vmax;
   width: 18vmax;
+
+  object-fit: cover;
 
   max-height: 20vmax;
   max-width: 20vmax;
