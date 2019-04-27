@@ -75,7 +75,15 @@ a:hover{
 .mycontainer{
   background-color: white;
 }
-
+.artist{
+    padding: 5;
+    height: 40px;
+    width:280px;
+    background-color: blue;
+    color: #EBB800;
+    border-radius: 25px;
+    text-align: center;
+}
 .mynav .m-3{
     background-color:#003A94;
 }

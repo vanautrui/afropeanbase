@@ -8,7 +8,15 @@
     ?>
   <div class="container-fluid">
 
+              <div class="artist"> SOCIAL MEDIA INFLUENCER</div>
+              <div class="artist">MUSICIAN</div>
+              <div class="artist">MODELS</div>
+              <div class="artist">DANCERS </div>
+              <div class="artist">MCs</div>
+              <div class="artist">DJs</div>
     <div class="row justify-content-center" id="artist-showcase">
+
+
         <?php
             $artist_images=array(
 
