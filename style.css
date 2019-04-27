@@ -16,11 +16,11 @@ body {
   color:black;
 }
 
-.bg-afropean-dark,bg-afropean-dark:focus{
+.bg-afropean-dark{
   background-color: #003A94;
 }
 
-.bg-afropean-light, bg-afropean-light:focus{
+.bg-afropean-light{
     background-color: #0056DB;
 }
 
@@ -54,6 +54,10 @@ a:hover{
   background-color: rgb(0,86,219);
 }
 
+#my-navigation{
+    align:right;
+}
+
 .artist_picture{
 
   min-height: 300px;
@@ -73,5 +77,5 @@ a:hover{
 }
 
 .mynav .m-3{
-    background-color:white;
+    background-color:#003A94;
 }
