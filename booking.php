@@ -8,33 +8,34 @@
 ?>
 
 <div class="container">
+    
+    <h2 class="m-3 fg-afropean text-center">
+        CELEBRITY BOOKING FORM
+    </h2>
 
-    <form>
-      <div class="form-group">
-        <label for="email">Email address</label>
+    <form 
+        class="rounded m-3 p-3 bg-afropean-dark fg-afropean">
+      
+      <div class="form-group ">
+          Name of the Celebrity
         <input 
-            type="email" 
-            class="form-control" 
-            id="email" 
-            placeholder="Email"
-        >
-      </div>
-      <div class="form-group">
-        <input 
-            class="form-control" 
+            class="form-control " 
             type="text" 
             name="celebrityname" 
             placeholder="Name of the Celebrity you would like to book"
         >
       </div>
-      <div class="row justify-content-left" id="name">
+      Your Details:
+      <div class="row justify-content-left" id="personalinfo">
+          
           <div class="form-group m-3">
-            <input 
-                class="form-control" 
-                type="text" 
-                name="title" 
-                placeholder="Title (TODO: make dropdown)"
-            >
+              <select class="custom-select">
+                  <option selected>Mr.</option>
+                  <option>Dr.</option>
+                  <option>Prof.</option>
+                  <option>Mrs.</option>
+                  <option>Ms.</option>
+              </select>
           </div>
           <div class="form-group m-3">
             <input 
@@ -52,19 +53,30 @@
                 placeholder="Last Name"
             >
           </div>
+          <div class="form-group m-3">
+            
+            <input 
+                type="email" 
+                class="form-control" 
+                id="email" 
+                placeholder="Email"
+            >
+          </div>
+          
       </div>
       
+      <div class="form-group ">
+          Company Name
+            <input 
+                class="form-control" 
+                type="text" 
+                name="companyname" 
+                placeholder="Company Name (if applicable)"
+            >
+          </div>
+      
       <div class="form-group">
-        <input 
-            class="form-control" 
-            type="text" 
-            name="companyname" 
-            placeholder="Company Name (if applicable)"
-        >
-      </div>
-      <div class="form-group">
-        <label for="country">Country</label><span style="color: red !important; display: inline; float: none;">*</span>      
-        
+        Country
             <select id="country" name="country" class="form-control">
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
@@ -314,6 +326,7 @@
       </div>
       
       <div class="form-group">
+          Phone
         <input 
             class="form-control" 
             type="text" 
@@ -322,7 +335,6 @@
         >
       </div>
       
-      <hr>
       
       <div class="form-group">
           Date of the Event
@@ -334,30 +346,40 @@
         >
       </div>
       
-      <div class="form-group">
-        <input 
-            class="form-control" 
-            type="text" 
-            name="venue" 
-            placeholder="Event Venue"
-        >
+      <div class="row justify-content-left">
+        <div class="form-group m-3">
+          Event Venue
+            <input 
+                class="form-control" 
+                type="text" 
+                name="venue" 
+            >
+          </div>
+          
+          <div class="form-group m-3">
+              Type of the Event
+            <input 
+                class="form-control" 
+                type="text" 
+                name="event_type" 
+            >
+          </div>
+          
+          <div class="form-group m-3">
+              Budget (in US Dollar)
+            <input 
+                class="form-control" 
+                type="number" 
+                name="budget" 
+            >
+          </div>
       </div>
       
-      <div class="form-group">
-          Budget (in US Dollar)
-        <input 
-            class="form-control" 
-            type="number" 
-            name="budget" 
-            placeholder="Budget"
-        >
-      </div>
       
       <button 
         type="submit" 
-        class="btn btn-primary"
-        >
-         Submit 
+        class="btn badge-pill fg-afropean-dark bg-afropean-bright">
+         <strong class="m-3">Submit</strong> 
         </button>
     </form>
     
