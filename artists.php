@@ -8,41 +8,11 @@
     ?>
   <div class="container-fluid">
 
-              <div class="artist"> SOCIAL MEDIA INFLUENCER</div>
-              <div class="artist">MUSICIAN</div>
-              <div class="artist">MODELS</div>
-              <div class="artist">DANCERS </div>
-              <div class="artist">MCs</div>
-              <div class="artist">DJs</div>
+              
     <div class="row justify-content-center" id="artist-showcase">
 
 
         <?php
-            $artist_images=array(
-
-
-
-
-
-                "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/50851677_365804594216200_640813750537945088_n.jpg?_nc_cat=109&_nc_ht=scontent-frt3-1.xx&oh=9305ce4d195f855c0e2ebe9bb7ffe304&oe=5CF84DB9",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/45001814_317620695701257_7302716490908696576_n.jpg?_nc_cat=104&_nc_ht=scontent-amt2-1.xx&oh=b4b800c24efa6e25a8f71e30433c7da4&oe=5D188D4A",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/42681062_302537060542954_4239025823710969856_n.jpg?_nc_cat=109&_nc_ht=scontent-amt2-1.xx&oh=1cc4bea3a3eb76537ab49f9325530c46&oe=5D1F90CE",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/41964639_297740544355939_3245642339602923520_n.jpg?_nc_cat=103&_nc_ht=scontent-amt2-1.xx&oh=9ea04604bc3c85aecff5a991e5ea3a36&oe=5D1999FD",
-                /*
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/42361342_299958194134174_8028274576171466752_n.jpg?_nc_cat=105&_nc_ht=scontent-amt2-1.xx&oh=23cd34d3f4068a69cd9b247dc1b4f9c9&oe=5D214E0B",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/39397733_277667043029956_176441066155671552_n.jpg?_nc_cat=102&_nc_ht=scontent-amt2-1.xx&oh=3a370690daddc42caf21f71fd80aa87b&oe=5CDD7E7B",
-                "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/33248932_205358353594159_8144813024780222464_n.jpg?_nc_cat=103&_nc_ht=scontent-amt2-1.xx&oh=c3bae6d4b4206e2a2a6eaf15941daaac&oe=5CDC0597"
-
-                */
-
-
-
-
-
-
-
-
-            );
 
             $artist_cards=array(
                 array(
@@ -142,22 +112,32 @@
                         "model"
                 )
             );
-
-            for($i=0;$i<sizeof($artist_cards);$i++){
-
-                echo "<div>";
-                    echo "<a href='" . $artist_cards[$i][2] . "'>";
-                        echo "<img class='artist_picture m-3' src='" . $artist_cards[$i][0] . "'>";
-                    echo "</a>";
-                    echo "<p class='text-center'>" . $artist_cards[$i][1] . "</p>";
-                echo "</div>";
-
+            
+            function make_artist_card($artist){
+                return 
+                 "<div>"
+                     ."<a href='" . $artist[2] . "'>" 
+                        . "<img class='artist_picture m-3' src='" . $artist[0] . "'>"
+                    . "</a>"
+                    . "<p class='text-center'>" . $artist[1] . "</p>"
+                . "</div>";
             }
 
-            for($i=0;$i<sizeof($artist_images);$i++){
-                echo "<img class='artist_picture m-3' src=\"" . $artist_images[$i] . "\">";
+            
+            
+            
+            function filter_print_artist($category,$artist_cards){
+                for($i=0;$i<sizeof($artist_cards);$i++){
+                    $artist = $artist_cards[$i];
+                    if($artist[3]==$category){
+                        echo(make_artist_card($artist));
+                    }
+                }
             }
         ?>
+        
+        
+        
       <!--
       <div class="card">
         <img class="card-img-top artist_picture" src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/50986168_368614330601893_674392925844537344_n.jpg?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=d235f19cc3effb02deee65732c254100&oe=5CF100A4"/>
@@ -173,6 +153,62 @@
       -->
 
     </div>
+    
+    <div class="row justify-content-center">
+        <h3 class=" text-center artist p-2 bg-afropean-dark"> 
+            Social Media Influencers</h3>
+    </div>
+    <div class="row justify-content-center ">
+        <?php 
+            filter_print_artist("Influencer",$artist_cards);
+        ?>
+    </div>
+    
+    <div class="row justify-content-center">
+        <h3 class=" text-center artist p-2 bg-afropean-dark"> Musicians</h3>
+    </div>
+    <div class="row justify-content-center ">
+        <?php 
+            filter_print_artist("Musician",$artist_cards);
+        ?>
+    </div>
+    
+    <div class="row justify-content-center">
+        <h3 class=" text-center artist p-2 bg-afropean-dark"> Models</h3>
+    </div>
+    <div class="row justify-content-center ">
+        <?php 
+            filter_print_artist("model",$artist_cards);
+        ?>
+    </div>
+    
+    <div class="row justify-content-center">
+        <h3 class=" text-center artist p-2 bg-afropean-dark"> Dancers</h3>
+    </div>
+    <div class="row justify-content-center ">
+        <?php 
+            filter_print_artist("dancer",$artist_cards);
+        ?>
+    </div>
+    
+    <div class="row justify-content-center">
+        <h3 class=" text-center artist p-2 bg-afropean-dark"> MC's</h3>
+    </div>
+    <div class="row justify-content-center ">
+        <?php 
+            filter_print_artist("MC",$artist_cards);
+        ?>
+    </div>
+    
+    <div class="row justify-content-center">
+        <h3 class=" text-center artist p-2 bg-afropean-dark"> DJs</h3>
+    </div>
+    <div class="row justify-content-center ">
+        <?php 
+            filter_print_artist("DJ",$artist_cards);
+        ?>
+    </div>
+    
 
   </div>
 </body>
