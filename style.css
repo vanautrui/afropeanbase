@@ -16,6 +16,26 @@ body {
   color:black;
 }
 
+.bg-afropean-dark,bg-afropean-dark:focus{
+  background-color: #003A94;
+}
+
+.bg-afropean-light, bg-afropean-light:focus{
+    background-color: #0056DB;
+}
+
+.bg-afropean-bright{
+    background-color: #EBB800;
+}
+
+.fg-afropean-dark{
+    color: #003A94;
+}
+
+.fg-afropean{
+    color: #EBB800;
+}
+
 a, p{
   font-size: x-large;
   color: #EBB800;
