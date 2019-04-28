@@ -7,7 +7,41 @@
         include("header.fragment.html");
     ?>
   <div class="container-fluid">
-
+	
+	<div class="row justify-content-center m-3">
+		
+		<div class="btn-group bg-afropean-dark fg-afropean badge-pill" role="group">
+			
+			<a href="/artists.php?category=All"
+				class="btn btn-secondary bg-afropean-dark fg-afropean">
+				All
+			</a>
+			<a href="/artists.php?category=Influencer"
+			  class="btn btn-secondary bg-afropean-dark fg-afropean">
+			  Influencers
+			</a>
+			<a href="/artists.php?category=Musician"
+			  class="btn btn-secondary bg-afropean-dark fg-afropean">
+			  Musicians
+			</a>
+			<a href="/artists.php?category=MC"
+			  class="btn btn-secondary bg-afropean-dark fg-afropean">
+			  MC's
+			</a>
+			<a href="/artists.php?category=model"
+			  class="btn btn-secondary bg-afropean-dark fg-afropean">
+			  Models
+			</a>
+			<a href="/artists.php?category=dancer"
+			  class="btn btn-secondary bg-afropean-dark fg-afropean">
+			  Dancers
+			</a>
+			<a href="/artists.php?category=DJ"
+			  class="btn btn-secondary bg-afropean-dark fg-afropean">
+			  DJ's
+			</a>
+		</div>
+	</div>
               
     <div class="row justify-content-center" id="artist-showcase">
 
@@ -129,7 +163,7 @@
             function filter_print_artist($category,$artist_cards){
                 for($i=0;$i<sizeof($artist_cards);$i++){
                     $artist = $artist_cards[$i];
-                    if($artist[3]==$category){
+                    if($artist[3]==$category || $category == "All"){
                         echo(make_artist_card($artist));
                     }
                 }
@@ -154,58 +188,15 @@
 
     </div>
     
-    <div class="row justify-content-center">
-        <h3 class=" text-center artist p-2 bg-afropean-dark"> 
-            Social Media Influencers</h3>
-    </div>
-    <div class="row justify-content-center ">
-        <?php 
-            filter_print_artist("Influencer",$artist_cards);
-        ?>
-    </div>
     
-    <div class="row justify-content-center">
-        <h3 class=" text-center artist p-2 bg-afropean-dark"> Musicians</h3>
-    </div>
     <div class="row justify-content-center ">
         <?php 
-            filter_print_artist("Musician",$artist_cards);
-        ?>
-    </div>
-    
-    <div class="row justify-content-center">
-        <h3 class=" text-center artist p-2 bg-afropean-dark"> Models</h3>
-    </div>
-    <div class="row justify-content-center ">
-        <?php 
-            filter_print_artist("model",$artist_cards);
-        ?>
-    </div>
-    
-    <div class="row justify-content-center">
-        <h3 class=" text-center artist p-2 bg-afropean-dark"> Dancers</h3>
-    </div>
-    <div class="row justify-content-center ">
-        <?php 
-            filter_print_artist("dancer",$artist_cards);
-        ?>
-    </div>
-    
-    <div class="row justify-content-center">
-        <h3 class=" text-center artist p-2 bg-afropean-dark"> MC's</h3>
-    </div>
-    <div class="row justify-content-center ">
-        <?php 
-            filter_print_artist("MC",$artist_cards);
-        ?>
-    </div>
-    
-    <div class="row justify-content-center">
-        <h3 class=" text-center artist p-2 bg-afropean-dark"> DJs</h3>
-    </div>
-    <div class="row justify-content-center ">
-        <?php 
-            filter_print_artist("DJ",$artist_cards);
+			$category="All";
+			if( isset($_GET["category"]) ){
+				$category=$_GET["category"];
+			}
+        
+            filter_print_artist($category,$artist_cards);
         ?>
     </div>
     
