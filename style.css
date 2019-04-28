@@ -76,14 +76,21 @@ a:hover{
   background-color: white;
 }
 .artist{
-    //padding: 9;
-    //height: 40px;
-    //width:280px;
-    //background-color: blue;
+    padding: 9;
+    height: 40px;
+    width:280px;
+    background-color: blue;
     color: #EBB800;
     font-weight: bold;
     border-radius: 25px;
 }
+
 .mynav .m-3{
     background-color:#003A94;
+    color: #EBB800;
+}
+
+.navcontent{
+    background-color:#003A94;
+    color: #EBB800;
 }
