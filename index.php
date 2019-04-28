@@ -4,7 +4,9 @@
 ?>
 <body>
 <div class="onboard">
-    <img src="assets/bigger_cut.png">
+    <div class="row justify-content-center">
+        <img src="assets/bigger_cut.png" style="height: 100%; width: auto;">
+    </div>
 </div>
 
 <div class="offboard">
