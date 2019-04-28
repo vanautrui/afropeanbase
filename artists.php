@@ -6,12 +6,13 @@
     <?php
         include("header.fragment.html");
     ?>
+
   <div class="container-fluid">
-	
+
 	<div class="row justify-content-center m-3">
-		
+
 		<div class="btn-group bg-afropean-dark fg-afropean badge-pill" role="group">
-			
+
 			<a href="/artists.php?category=All"
 				class="btn btn-secondary bg-afropean-dark fg-afropean">
 				All
@@ -42,7 +43,7 @@
 			</a>
 		</div>
 	</div>
-              
+
     <div class="row justify-content-center" id="artist-showcase">
 
 
@@ -146,20 +147,20 @@
                         "model"
                 )
             );
-            
+
             function make_artist_card($artist){
-                return 
+                return
                  "<div>"
-                     ."<a href='" . $artist[2] . "'>" 
+                     ."<a href='" . $artist[2] . "'>"
                         . "<img class='artist_picture m-3' src='" . $artist[0] . "'>"
                     . "</a>"
                     . "<p class='text-center'>" . $artist[1] . "</p>"
                 . "</div>";
             }
 
-            
-            
-            
+
+
+
             function filter_print_artist($category,$artist_cards){
                 for($i=0;$i<sizeof($artist_cards);$i++){
                     $artist = $artist_cards[$i];
@@ -169,9 +170,9 @@
                 }
             }
         ?>
-        
-        
-        
+
+
+
       <!--
       <div class="card">
         <img class="card-img-top artist_picture" src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/50986168_368614330601893_674392925844537344_n.jpg?_nc_cat=103&_nc_ht=scontent-frt3-1.xx&oh=d235f19cc3effb02deee65732c254100&oe=5CF100A4"/>
@@ -187,19 +188,19 @@
       -->
 
     </div>
-    
-    
+
+
     <div class="row justify-content-center ">
-        <?php 
+        <?php
 			$category="All";
 			if( isset($_GET["category"]) ){
 				$category=$_GET["category"];
 			}
-        
+
             filter_print_artist($category,$artist_cards);
         ?>
     </div>
-    
+
 
   </div>
 </body>
