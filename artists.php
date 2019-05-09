@@ -11,7 +11,7 @@
 
 	<div class="row justify-content-center m-3">
 
-		<div class="btn-group bg-afropean-dark fg-afropean badge-pill" role="group">
+		<div class="btn-group bg-afropean-dark fg-afropean " role="group">
 
 			<a href="/artists.php?category=All"
 				class="btn btn-secondary bg-afropean-dark fg-afropean">
