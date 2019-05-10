@@ -51,97 +51,97 @@
 
             $artist_cards=array(
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/b893b81e326beadd74f7485259f13509/5D02EB0F/t51.2885-15/e35/43276462_281278195921601_3969613862627526195_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/george_alisigwe.jpg",
                         "George Alisigwe, Musician",
                         "https://www.instagram.com/georgealisigwe/",
                         "Musician"
                     ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/115dd31f26e5ecc05801c14240a39f37/5D1182D6/t51.2885-15/e35/49283519_130467431307660_4876612131884495674_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/ashlee_janelle.jpg",
                         "Ashlee Janelle, Influencer",
                         "https://www.instagram.com/ashleejanelle_/?hl=de",
                         "Influencer"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/d407807e8eea81e5b2f3067e836e971f/5D1FAC52/t51.2885-15/e35/49321467_114295019639008_4668579499900551510_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/sandra_lambeck.jpg",
                         "Sandra Lambeck, Influencer",
                         "https://www.instagram.com/sandralambeck/",
                         "Influencer"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/e82745fe0aa39c48f6eb4795730d5867/5D01EF56/t51.2885-15/e35/50766671_1276212509185851_3515962590560094321_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/maleek_berry.jpg",
                         "Maleek Berry, Musician",
                         "https://www.instagram.com/maleekberry/",
                         "Musician"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/aebe80f49a8b53e94f150f9ed104e14b/5D28C95B/t51.2885-15/e35/47299700_221287898758281_8289701074786164150_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/dj_noreuk.jpg",
                         "Dj Noreuk",
                         "https://www.instagram.com/djnoreuk/",
                         "DJ"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/fe1dbc0fe7d8c4b38a4006eeb8371425/5D09B023/t51.2885-15/e35/29088214_159905824699168_3096507584593526784_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/dj_opanka.jpg",
                         "Dj Opanka (Belgium)",
                         "https://www.instagram.com/dj_opanka/",
                         "DJ"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/896eda16881253fdcb56aff8d917a774/5D24B9F5/t51.2885-15/e35/35001230_420203385127038_8198348907361599488_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/dj_emsi_flybokoe.jpg",
                         "Dj Emsi flybokoe (Holland)",
                         "https://www.instagram.com/emsiflybokoe/",
                         "DJ"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/009ed243913cc9cef3adb2ddc3dae605/5D0AD2E3/t51.2885-15/e35/38685614_225299354801820_2013045360544448512_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/dj_fii_fii.jpg",
                         "Dj FiiFii (UK)",
                         "https://www.instagram.com/fiifiidj/",
                         "DJ"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/9d833c7e1563533d81f053a83ad0c435/5D14C798/t51.2885-15/e35/42893187_2180284608671680_5300677682202467498_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/mariseya.jpg",
                         "Mariseya, Musician (Holland)",
                         "https://www.instagram.com/mrsmariseya/",
                         "Musician"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/966e3ef3e8ba4f9cfe945fb5f0805780/5D16FAE4/t51.2885-15/e35/50055471_618135025290121_3935962419101581898_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/ynxg_bane.jpg",
                         "Yxng Bane, Musician (UK)",
                         "https://www.instagram.com/yxngbane/",
                         "Musician"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/6d8dd37914a1afaebaf95b5d5e103060/5D23BCCA/t51.2885-15/e35/40532420_1141520382664276_6587911135444336640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/ms_aba.jpg",
                         "Ms. Aba, Mc/Presenter (Holland)",
                         "https://www.instagram.com/ms.aba/",
                         "MC"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/c516ce2dbdca084a9be049596bc61155/5D1756AC/t51.2885-15/e35/39638154_259009211607919_8384076306991546368_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/kojo_funds.jpg",
                         "Kojo Funds, Musician (UK)",
                         "https://www.instagram.com/kojofunds/",
                         "Musician"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/0705d94442f84384268d1f41b85f0a2a/5D103138/t51.2885-15/e35/41725149_1779798485462158_4390871962259442420_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/deon_boakye.jpg",
                         "Deon Boakye, Musician (Italy)",
                         "https://www.instagram.com/deonboakye/",
                         "Musician"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/51be5bd866494e7eb07be6dc2049dd37/5D167C74/t51.2885-15/e35/19931776_320420575094867_5151541597690658816_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/joceappia.jpg",
                         "Joceappia, Fitness Model (Germany)",
                         "https://www.instagram.com/joceappia/",
                         "model"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/d30231264244f3f27ffa3c2a238b8aff/5D065E81/t51.2885-15/e35/15876307_1322151114522054_2270065364702330880_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/dj_brooke_bailey.jpg",
                         "Dj Brooke Bailey (Belgium)",
                         "https://www.instagram.com/dj_brookebailey/",
                         "DJ"
                 ),
                 array(
-                        "https://scontent-frx5-1.cdninstagram.com/vp/09eda60904a2b6d27210627a946a33ad/5D204302/t51.2885-15/e35/28153281_766531886877105_7939512424095285248_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+                        "/monochrome/maybeline_akua.jpg",
                         "Maybeline Akua, Model (Amsterdam)",
                         "https://www.instagram.com/maybeline.akua/",
                         "model"
